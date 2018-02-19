@@ -13,6 +13,8 @@
 		F71374D52031071B0075CECE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F71374D42031071B0075CECE /* Assets.xcassets */; };
 		F71374D82031071B0075CECE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F71374D62031071B0075CECE /* LaunchScreen.storyboard */; };
 		F71374E32031071B0075CECE /* ToyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71374E22031071B0075CECE /* ToyTests.swift */; };
+		F71374EE203A47550075CECE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71374ED203A47550075CECE /* TableViewController.swift */; };
+		F71374F0203A47950075CECE /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71374EF203A47950075CECE /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		F71374DE2031071B0075CECE /* ToyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F71374E22031071B0075CECE /* ToyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyTests.swift; sourceTree = "<group>"; };
 		F71374E42031071B0075CECE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F71374ED203A47550075CECE /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		F71374EF203A47950075CECE /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				F71374D42031071B0075CECE /* Assets.xcassets */,
 				F71374D62031071B0075CECE /* LaunchScreen.storyboard */,
 				F71374D92031071B0075CECE /* Info.plist */,
+				F71374ED203A47550075CECE /* TableViewController.swift */,
+				F71374EF203A47950075CECE /* TableViewCell.swift */,
 			);
 			path = Toy;
 			sourceTree = "<group>";
@@ -200,6 +206,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F71374D02031071B0075CECE /* ViewController.swift in Sources */,
+				F71374F0203A47950075CECE /* TableViewCell.swift in Sources */,
+				F71374EE203A47550075CECE /* TableViewController.swift in Sources */,
 				F71374CE2031071A0075CECE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
